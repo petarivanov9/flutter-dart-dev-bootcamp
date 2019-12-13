@@ -20,11 +20,22 @@ class MyApp extends StatelessWidget {
                 backgroundImage: AssetImage('images/petar-ivanov.jpg'),
               ),
               Text(
-                'Petar Ivaylov Ivanov',
+                'Petar Ivanov',
                 style: TextStyle(
+                  fontFamily: 'Pacifico',
                   fontSize: 40.0,
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
+                ),
+              ),
+              Text(
+                'SOFTWARE ENGINEER',
+                style: TextStyle(
+                  fontFamily: 'Source Sans Pro',
+                  fontSize: 20.0,
+                  letterSpacing: 2.5,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.teal.shade100,
                 ),
               ),
             ],
