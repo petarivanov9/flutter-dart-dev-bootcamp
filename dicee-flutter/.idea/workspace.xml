@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da4591e0-b89d-4238-9f1f-78e5e5a89650" name="Default Changelist" comment="" />
+    <list default="true" id="da4591e0-b89d-4238-9f1f-78e5e5a89650" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,8 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_6_API_28" />
   <component name="FileEditorManager">
@@ -18,8 +20,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+            <state relative-caret-position="403">
+              <caret line="47" column="46" lean-forward="true" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,7 +63,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -81,6 +85,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -184,16 +189,15 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.33443436" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.3402147" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="Resources Explorer" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" />
       <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.25882354" />
-      <window_info anchor="bottom" id="Run" order="1" weight="0.28983957" />
+      <window_info active="true" anchor="bottom" id="Run" order="1" visible="true" weight="0.28983957" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" />
@@ -201,6 +205,7 @@
       <window_info anchor="bottom" id="Flutter Performance" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.20855615" />
+      <window_info anchor="bottom" id="Find" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Flutter Inspector" order="2" weight="0.328654" />
@@ -215,10 +220,20 @@
     <entry file="file://$PROJECT_DIR$/pubspec.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$USER_HOME$/Developer/flutter/packages/flutter/lib/src/widgets/framework.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="558" column="15" selection-start-line="558" selection-start-column="15" selection-end-line="558" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        <state relative-caret-position="403">
+          <caret line="47" column="46" lean-forward="true" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
