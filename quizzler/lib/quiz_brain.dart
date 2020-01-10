@@ -32,7 +32,7 @@ class QuizBran {
   ];
 
   void nextQuestion() {
-    if (_currentQuestionNumber + 1 < _questionBank.length) {
+    if (_currentQuestionNumber < _questionBank.length - 1) {
       _currentQuestionNumber++;
     }
   }
@@ -43,5 +43,17 @@ class QuizBran {
 
   bool getCorrectAnswer() {
     return _questionBank[_currentQuestionNumber].answer;
+  }
+
+  bool isFinished() {
+    if (_currentQuestionNumber >= _questionBank.length - 1) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+  void reset() {
+    _currentQuestionNumber = 0;
   }
 }
